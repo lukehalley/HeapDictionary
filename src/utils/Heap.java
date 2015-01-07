@@ -15,6 +15,7 @@ public class Heap {
 			Pair parent = dictionaryWords.get(p);
 
 			if (item.compareTo(parent) > 0) {
+// Maintains min-heap invariant after adding new element
 
 				// Swap
 				dictionaryWords.set(k, parent);
