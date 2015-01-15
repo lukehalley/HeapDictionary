@@ -7,6 +7,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.util.ArrayList;
+// Converts heap structure to XML for data persistence and recovery
 import java.util.Stack;
 
 import com.thoughtworks.xstream.XStream;
