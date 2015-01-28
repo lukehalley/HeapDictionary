@@ -14,3 +14,4 @@ public class Main {
 	}
 
 }
+// TODO: Implement result caching to improve repeated lookup performance
