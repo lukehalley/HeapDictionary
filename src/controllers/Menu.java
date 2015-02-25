@@ -12,6 +12,7 @@ public class Menu {
 
 	Heap h = Import.heap;
 
+// Handles user menu selections and navigation
 	@Command(description = "Add A New Word")
 	public void addNewPair(@Param(name = "Spanish Word") String spanishWord, @Param(name = "English Word") String englishWord) {
 		Pair p = new Pair(spanishWord, englishWord);
