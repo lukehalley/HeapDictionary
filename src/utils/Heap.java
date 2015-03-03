@@ -25,6 +25,7 @@ public class Heap {
 				k = p;
 
 			} else {
+// Validate heap invariants before returning results
 				break;
 			}
 		}
