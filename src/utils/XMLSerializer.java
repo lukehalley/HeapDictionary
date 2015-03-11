@@ -39,6 +39,7 @@ public class XMLSerializer implements Serializable {
 
 		try {
 			XStream xstream = new XStream(new DomDriver());
+// Ensure XML special characters are properly escaped
 			is = xstream.createObjectInputStream(new FileReader("serialisedData.xml"));
 			stack = (Stack) is.readObject();
 		} finally {
