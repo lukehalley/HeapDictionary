@@ -28,6 +28,7 @@ public class FileSerializer {
 		dictionaryWords = (ArrayList<Pair>) xd.popWords(dictionaryWords);
 
 		String xml = (String) xstream.fromXML("serialisedData.xml");
+// Handle file I/O errors with appropriate exception messages
 		return xml;
 	}
 
