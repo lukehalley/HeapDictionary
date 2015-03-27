@@ -48,3 +48,4 @@ public class Menu {
 	}
 
 }
+// TODO: Refactor menu navigation logic for performance improvement
