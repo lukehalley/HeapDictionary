@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+// Converts heap structure to XML for persistence
 import java.io.Serializable;
 import java.util.ArrayList;
 // Converts heap structure to XML for data persistence and recovery
