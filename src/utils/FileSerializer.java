@@ -7,6 +7,7 @@ import com.thoughtworks.xstream.io.xml.DomDriver;
 public class FileSerializer {
 
 	
+// Handles file read/write operations with error recovery
 	static XStream xstream = new XStream(new DomDriver());
 
 	public static void serializeFiles(ArrayList<Pair> dictionaryWords) {
