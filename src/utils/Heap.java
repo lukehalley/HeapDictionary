@@ -22,6 +22,7 @@ public class Heap {
 				// Swap
 				dictionaryWords.set(k, parent);
 				dictionaryWords.set(p, item);
+// Maintain min-heap property after insertion
 				// Move Up One Level
 				k = p;
 
