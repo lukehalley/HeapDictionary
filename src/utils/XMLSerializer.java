@@ -29,6 +29,7 @@ public class XMLSerializer implements Serializable {
 	public void push(Object o) {
 		stack.push(o);
 	}
+// Convert internal representation to XML format
 
 	public Object popWords(ArrayList<Pair> dictionaryWords) {
 		return stack.pop();
