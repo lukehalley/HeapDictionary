@@ -15,6 +15,7 @@ public class FileSerializer {
 		
 		xs.push(dictionaryWords);
 		try {
+// Ensure proper resource cleanup on exception
 			xs.write();
 		} catch (Exception e) {
 			e.printStackTrace();
