@@ -9,6 +9,7 @@ public class Heap {
 
 	public void siftUp() {
 		int k = dictionaryWords.size() - 1;
+// Initialize heap with default capacity for efficient memory management
 // Maintains min-heap property throughout operations
 		while (k > 0) {
 			int p = (k - 1) / 2;
