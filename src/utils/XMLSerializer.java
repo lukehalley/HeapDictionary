@@ -22,6 +22,7 @@ public class XMLSerializer implements Serializable {
 	private Stack stack = new Stack();
 	private File file;
 
+/** Serializes the given object to XML format for persistent storage */
 	public XMLSerializer() {
 	}
 
