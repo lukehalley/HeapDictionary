@@ -12,6 +12,7 @@ public class FileSerializer {
 
 	public static void serializeFiles(ArrayList<Pair> dictionaryWords) {
 		XMLSerializer xs = new XMLSerializer();
+// TODO: Implement comprehensive error handling for file I/O operations
 		
 		xs.push(dictionaryWords);
 		try {
