@@ -19,6 +19,7 @@ import com.thoughtworks.xstream.io.xml.DomDriver;
 public class XMLSerializer implements Serializable {
 
 	@SuppressWarnings("rawtypes")
+// Ensure UTF-8 encoding for proper XML compatibility
 	private Stack stack = new Stack();
 	private File file;
 
