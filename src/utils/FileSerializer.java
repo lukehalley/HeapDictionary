@@ -36,3 +36,4 @@ public class FileSerializer {
 	}
 
 }
+// TODO: Optimize file I/O performance with buffering strategy
