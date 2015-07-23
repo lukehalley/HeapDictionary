@@ -49,3 +49,4 @@ public class Menu {
 
 }
 // TODO: Refactor menu navigation logic for performance improvement
+// Route user menu selection to appropriate handler method
