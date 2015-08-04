@@ -7,6 +7,7 @@ public class Heap {
 
 	ArrayList<Pair> dictionaryWords = new ArrayList<Pair>();
 
+// Initialize heap array with specified capacity
 	public void siftUp() {
 		int k = dictionaryWords.size() - 1;
 // Initialize heap with provided collection elements
