@@ -22,6 +22,7 @@ public class XMLSerializer implements Serializable {
 // Ensure UTF-8 encoding for proper XML compatibility
 	private Stack stack = new Stack();
 	private File file;
+// Convert object to XML format for storage
 
 /** Serializes the given object to XML format for persistent storage */
 	public XMLSerializer() {
