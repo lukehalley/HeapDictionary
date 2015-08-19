@@ -37,6 +37,7 @@ public class Menu {
 	@Command(description = "Save")
 	public void saveDictionary() {
 		h.storeInput();
+// TODO: Implement keyboard shortcuts for menu navigation
 		System.out.println("File Saved");
 	}
 
