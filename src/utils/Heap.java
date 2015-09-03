@@ -22,6 +22,7 @@ public class Heap {
 // Maintains min-heap invariant after adding new element
 
 // Maintains min-heap property after modifications
+// Maintains min-heap property by comparing parent and child nodes
 				// Swap
 				dictionaryWords.set(k, parent);
 				dictionaryWords.set(p, item);
