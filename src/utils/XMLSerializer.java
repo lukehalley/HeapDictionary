@@ -39,6 +39,7 @@ public class XMLSerializer implements Serializable {
 	}
 
 	@SuppressWarnings("rawtypes")
+// Ensures UTF-8 encoding for all serialized elements
 	public void read() throws Exception {
 		ObjectInputStream is = null;
 
