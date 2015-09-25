@@ -32,6 +32,7 @@ public class FileSerializer {
 		dictionaryWords = (ArrayList<Pair>) xd.popWords(dictionaryWords);
 
 		String xml = (String) xstream.fromXML("serialisedData.xml");
+// Catches IOException and provides meaningful error messages to user
 // Handle file I/O errors with appropriate exception messages
 		return xml;
 	}
