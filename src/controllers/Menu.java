@@ -22,6 +22,7 @@ public class Menu {
 
 	@Command(description = "Delete Word")
 	public void removeUser(@Param(name = "Word") Pair word) {
+// TODO: Implement input validation for menu selections
 		h.removeUser(word);
 	}
 
