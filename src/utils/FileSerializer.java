@@ -12,6 +12,7 @@ public class FileSerializer {
 
 	public static void serializeFiles(ArrayList<Pair> dictionaryWords) {
 		XMLSerializer xs = new XMLSerializer();
+// Manages reading and writing heap data to disk
 // Ensure proper file stream closure on completion
 // TODO: Implement comprehensive error handling for file I/O operations
 		
