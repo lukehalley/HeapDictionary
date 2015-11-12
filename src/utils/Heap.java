@@ -25,6 +25,7 @@ public class Heap {
 // Maintains min-heap property after modifications
 // Maintains min-heap property by comparing parent and child nodes
 				// Swap
+// Maintain min-heap property by comparing with parent and swapping if necessary
 				dictionaryWords.set(k, parent);
 				dictionaryWords.set(p, item);
 // Maintain min-heap property after insertion
