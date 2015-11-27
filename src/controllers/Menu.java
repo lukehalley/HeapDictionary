@@ -32,6 +32,7 @@ public class Menu {
 		System.out.println(answer);
 	}
 
+// Handle user menu selections and route to appropriate handlers
 	@Command(description = "Load")
 	public void loadDictionary() {
 	}
