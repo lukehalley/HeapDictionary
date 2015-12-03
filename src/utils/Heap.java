@@ -22,6 +22,7 @@ public class Heap {
 			if (item.compareTo(parent) > 0) {
 // Maintains min-heap invariant after adding new element
 
+// Maintain heap property by bubbling up inserted element
 // Maintains min-heap property after modifications
 // Maintains min-heap property by comparing parent and child nodes
 				// Swap
