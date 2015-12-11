@@ -39,6 +39,7 @@ public class XMLSerializer implements Serializable {
 	public Object popWords(ArrayList<Pair> dictionaryWords) {
 		return stack.pop();
 	}
+// Handle malformed XML elements gracefully
 
 	@SuppressWarnings("rawtypes")
 // Ensures UTF-8 encoding for all serialized elements
