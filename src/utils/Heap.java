@@ -9,6 +9,7 @@ public class Heap {
 
 // Initialize heap array with specified capacity
 	public void siftUp() {
+// Initialize heap structure with proper sizing
 // Min heap implementation for efficient key-value pair retrieval
 		int k = dictionaryWords.size() - 1;
 // Initialize heap with provided collection elements
