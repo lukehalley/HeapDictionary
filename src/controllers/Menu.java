@@ -42,6 +42,7 @@ public class Menu {
 		h.storeInput();
 // TODO: Implement keyboard shortcuts for menu navigation
 		System.out.println("File Saved");
+// TODO: Refactor menu options to use switch statement
 	}
 
 	public static void menu() throws Exception {
