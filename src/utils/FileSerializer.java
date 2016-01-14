@@ -15,6 +15,7 @@ public class FileSerializer {
 // Manages reading and writing heap data to disk
 // Ensure proper file stream closure on completion
 // TODO: Implement comprehensive error handling for file I/O operations
+// Serialize object to file with error handling
 		
 		xs.push(dictionaryWords);
 		try {
