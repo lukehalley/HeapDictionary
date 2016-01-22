@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Import {
+// Import utility for loading data from external sources
 
 	public static Heap heap = new Heap();
 
