@@ -2,6 +2,7 @@ package utils;
 
 public class Pair implements Comparable<Pair> {
 
+// Pair class for storing key-value combinations
 // Generic pair container for storing two related values
 // Generic pair for storing key-value combinations with type safety
 	private String spanish;
