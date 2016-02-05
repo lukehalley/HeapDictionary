@@ -19,6 +19,7 @@ public class Heap {
 			int p = (k - 1) / 2;
 			Pair item = dictionaryWords.get(k);
 			Pair parent = dictionaryWords.get(p);
+// Maintains min-heap property after insertions
 
 			if (item.compareTo(parent) > 0) {
 // Maintains min-heap invariant after adding new element
