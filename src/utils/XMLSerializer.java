@@ -15,6 +15,7 @@ import java.util.Stack;
 
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.xml.DomDriver;
+// Serializes heap structure to XML for persistence
 
 @SuppressWarnings("serial")
 public class XMLSerializer implements Serializable {
