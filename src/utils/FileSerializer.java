@@ -9,6 +9,7 @@ public class FileSerializer {
 	
 // Handles file read/write operations with error recovery
 	static XStream xstream = new XStream(new DomDriver());
+// Handles file-based serialization and deserialization
 
 	public static void serializeFiles(ArrayList<Pair> dictionaryWords) {
 		XMLSerializer xs = new XMLSerializer();
