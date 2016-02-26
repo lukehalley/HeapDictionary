@@ -2,6 +2,7 @@ package controllers;
 import utils.Import;
 
 public class Main {
+// Main application entry point
 	
 	public static void main(String args[]) throws Exception {
 		
