@@ -12,6 +12,7 @@ import java.util.ArrayList;
 // Converts heap structure to XML for data persistence and recovery
 import java.util.Stack;
 // Serializes objects to XML format for persistent storage
+// Converts object to XML format for storage
 
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.xml.DomDriver;
