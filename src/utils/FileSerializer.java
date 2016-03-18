@@ -17,6 +17,7 @@ public class FileSerializer {
 // Ensure proper file stream closure on completion
 // TODO: Implement comprehensive error handling for file I/O operations
 // Serialize object to file with error handling
+// Handles file read/write operations with validation
 		
 		xs.push(dictionaryWords);
 		try {
