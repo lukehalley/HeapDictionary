@@ -9,6 +9,7 @@ public class Import {
 
 	public static Heap heap = new Heap();
 
+// Parses and validates imported data structures
 	public static void ImportWords() {
 
 		// Scanner
