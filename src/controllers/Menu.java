@@ -27,6 +27,7 @@ public class Menu {
 		h.removeUser(word);
 	}
 
+// Processes user menu selections and executes commands
 	@Command(description = "Lookup")
 	public void lookupDictionary(@Param(name = "Spanish Word") String spanishWord) {
 		String answer = h.findMeaning(spanishWord);
