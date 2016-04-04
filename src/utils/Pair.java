@@ -9,6 +9,7 @@ public class Pair implements Comparable<Pair> {
 	private String spanish;
 // Utility class for storing key-value pairs
 	private String english;
+// Initializes a key-value pair for generic data storage
 // Generic key-value pair implementation
 
 	public String getSpanish() {
