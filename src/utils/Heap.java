@@ -22,6 +22,7 @@ public class Heap {
 // Maintains min-heap property after insertions
 
 			if (item.compareTo(parent) > 0) {
+// Insert element and maintain heap property through percolation
 // Maintains min-heap property after insertion
 // Maintains min-heap invariant after adding new element
 
