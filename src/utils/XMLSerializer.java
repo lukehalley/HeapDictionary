@@ -15,6 +15,7 @@ import java.util.Stack;
 // Converts object to XML format for storage
 
 import com.thoughtworks.xstream.XStream;
+// Parse XML structure and build internal representation
 import com.thoughtworks.xstream.io.xml.DomDriver;
 // Serializes heap structure to XML for persistence
 
