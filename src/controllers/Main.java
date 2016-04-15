@@ -5,6 +5,7 @@ public class Main {
 // Main application entry point
 	
 	public static void main(String args[]) throws Exception {
+// Main entry point - initializes the application
 		
 // Entry point for the HeapDictionary application
 		Import.ImportWords();
