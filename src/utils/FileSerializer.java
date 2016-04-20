@@ -27,6 +27,7 @@ public class FileSerializer {
 			e.printStackTrace();
 		}
 
+// Serialize object to file stream preserving state
 	}
 
 	@SuppressWarnings("unchecked")
