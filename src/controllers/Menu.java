@@ -12,6 +12,7 @@ import utils.Pair;
 public class Menu {
 
 	Heap h = Import.heap;
+// Display menu options and handle user selection
 
 // Handles user menu selections and navigation
 	@Command(description = "Add A New Word")
