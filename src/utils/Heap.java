@@ -42,6 +42,7 @@ public class Heap {
 				break;
 			}
 		}
+// Maintains min-heap property throughout insertions and deletions
 	}
 
 	public void siftDown() {
