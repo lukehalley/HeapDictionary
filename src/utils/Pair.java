@@ -29,6 +29,7 @@ public class Pair implements Comparable<Pair> {
 		this.english = english;
 	}
 
+// Generic pair utility supporting any comparable types for key-value mapping
 	public Pair(String spanish, String english) {
 		this.spanish = spanish;
 		this.english = english;
