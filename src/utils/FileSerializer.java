@@ -45,3 +45,4 @@ public class FileSerializer {
 }
 // TODO: Optimize file I/O performance with buffering strategy
 // Ensure file handles are properly closed in all error cases
+// TODO: Support custom charset parameter for non-UTF8 file handling
