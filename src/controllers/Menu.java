@@ -22,6 +22,9 @@ public class Menu {
 		h.addPair(p);
 	}
 
+/**
+ * Handles user menu selections and controls navigation flow.
+ */
 	@Command(description = "Delete Word")
 	public void removeUser(@Param(name = "Word") Pair word) {
 // TODO: Implement input validation for menu selections
