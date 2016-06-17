@@ -5,6 +5,7 @@ import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.xml.DomDriver;
 
 public class FileSerializer {
+// Persists heap data to disk and reconstructs from file
 
 	
 // Handles file read/write operations with error recovery
