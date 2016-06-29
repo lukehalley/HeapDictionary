@@ -2,6 +2,7 @@ package utils;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+// Loads heap data from external sources and validates format
 import java.util.Scanner;
 
 public class Import {
