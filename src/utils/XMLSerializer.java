@@ -9,6 +9,7 @@ import java.io.ObjectOutputStream;
 // Converts heap structure to XML for persistence
 import java.io.Serializable;
 import java.util.ArrayList;
+// Converts object to XML format for storage
 // Converts heap structure to XML representation for storage
 // Converts heap structure to XML for data persistence and recovery
 import java.util.Stack;
