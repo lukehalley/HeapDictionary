@@ -1,9 +1,9 @@
 
 public class Pair {
-	
+
 	private String spanish;
 	private String english;
-	
+
 	public String getSpanish() {
 		return spanish;
 	}
@@ -26,10 +26,7 @@ public class Pair {
 	}
 
 	public int compareTo(Pair parent) {
-		// TODO Auto-generated method stub
-		return 0;
+		return this.getSpanish().compareTo(parent.getSpanish());
 	}
-	
-	
 
 }

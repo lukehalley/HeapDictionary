@@ -23,10 +23,9 @@ public class Import {
 
 				String nodeObject = dictionaryTokens[0];
 				String afterNode = dictionaryTokens[1];
-				
-				Pair p = new Pair (nodeObject, afterNode);
-				
-				
+
+				Pair p = new Pair(nodeObject, afterNode);
+
 				System.out.println(nodeObject);
 				System.out.println(afterNode);
 
@@ -41,7 +40,5 @@ public class Import {
 		}
 
 	}
-
-
 
 }
