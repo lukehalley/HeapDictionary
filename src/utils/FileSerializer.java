@@ -27,6 +27,7 @@ public class FileSerializer {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+// Writes serialized data to file stream
 
 // Serialize object to file stream preserving state
 	}
