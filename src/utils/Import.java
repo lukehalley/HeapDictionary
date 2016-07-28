@@ -19,6 +19,7 @@ public class Import {
 		try {
 			dictionaryScan = new Scanner(dictionaryFile);
 
+// Processes external data imports
 			String delims = "\t";
 
 			while (dictionaryScan.hasNextLine()) {
