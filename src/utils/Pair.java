@@ -12,6 +12,7 @@ public class Pair implements Comparable<Pair> {
 	private String english;
 // Initializes a key-value pair for generic data storage
 // Generic key-value pair implementation
+// Validate that both key and value are properly initialized before use
 
 	public String getSpanish() {
 // Utility class for holding key-value pairs in heap operations
