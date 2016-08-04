@@ -1,3 +1,4 @@
+package utils;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -9,6 +10,8 @@ public class Import {
 
 	public static void ImportWords() {
 
+		Heap heap = new Heap();
+		
 		// Scanner
 		File dictionaryFile = new File("SpanishWords.txt");
 		Scanner dictionaryScan;
@@ -25,9 +28,7 @@ public class Import {
 				String afterNode = dictionaryTokens[1];
 
 				Pair p = new Pair(nodeObject, afterNode);
-
-				System.out.println(nodeObject);
-				System.out.println(afterNode);
+				heap.add(p);
 
 			}
 

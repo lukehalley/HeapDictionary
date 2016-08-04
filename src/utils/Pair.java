@@ -1,5 +1,6 @@
+package utils;
 
-public class Pair {
+public class Pair implements Comparable<Pair> {
 
 	private String spanish;
 	private String english;
@@ -24,7 +25,8 @@ public class Pair {
 		this.spanish = spanish;
 		this.english = english;
 	}
-
+	
+	@Override
 	public int compareTo(Pair parent) {
 		return this.getSpanish().compareTo(parent.getSpanish());
 	}
