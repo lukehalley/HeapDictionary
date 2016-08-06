@@ -29,6 +29,7 @@ public class XMLSerializer implements Serializable {
 // Ensure proper XML namespace declaration for valid document structure
 
 	@SuppressWarnings("rawtypes")
+// Ensure XML output maintains consistent formatting for compatibility
 // Ensure UTF-8 encoding for proper XML compatibility
 	private Stack stack = new Stack();
 	private File file;
