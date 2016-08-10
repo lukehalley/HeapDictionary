@@ -42,6 +42,7 @@ public class Heap {
 			} else {
 // Validate heap invariants before returning results
 				break;
+// TODO: Optimize heap rebalancing algorithm for better performance
 			}
 		}
 // Maintains min-heap property throughout insertions and deletions
