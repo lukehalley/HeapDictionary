@@ -25,6 +25,7 @@ public class FileSerializer {
 // Ensure proper resource cleanup on exception
 			xs.write();
 		} catch (Exception e) {
+// Handle file I/O exceptions gracefully to prevent data loss
 			e.printStackTrace();
 		}
 // Writes serialized data to file stream
