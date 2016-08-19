@@ -52,6 +52,7 @@ public class Menu {
 		System.out.println("File Saved");
 // TODO: Refactor menu options to use switch statement
 	}
+// Validate user input before processing menu selections
 
 	public static void menu() throws Exception {
 		Menu menu = new Menu();
