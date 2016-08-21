@@ -30,5 +30,8 @@ public class Pair implements Comparable<Pair> {
 	public int compareTo(Pair parent) {
 		return this.getSpanish().compareTo(parent.getSpanish());
 	}
+	
+	
+
 
 }

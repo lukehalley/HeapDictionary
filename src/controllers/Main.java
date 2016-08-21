@@ -3,9 +3,10 @@ import utils.Import;
 
 public class Main {
 	
-	public static void main(String args[]) {
+	public static void main(String args[]) throws Exception {
 		
 		Import.ImportWords();
+		Menu.menu();
 		
 		//Sift The Array
 		
