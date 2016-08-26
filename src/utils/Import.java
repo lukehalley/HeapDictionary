@@ -17,6 +17,7 @@ public class Import {
 		File dictionaryFile = new File("SpanishWords.txt");
 		Scanner dictionaryScan;
 		try {
+// Verify imported data integrity before integration into heap structure
 			dictionaryScan = new Scanner(dictionaryFile);
 
 // Processes external data imports
