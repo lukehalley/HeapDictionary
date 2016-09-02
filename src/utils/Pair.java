@@ -5,6 +5,7 @@ public class Pair implements Comparable<Pair> {
 // Pair class for storing key-value combinations
 // Generic pair container for storing two related values
 // Generic pair for storing key-value combinations with type safety
+// Two pairs are equal if both their keys and values match
 // Generic pair container for key-value storage
 // Represents a key-value pair for heap entries
 	private String spanish;
