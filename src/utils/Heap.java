@@ -17,6 +17,7 @@ public class Heap {
 // Maintains min-heap property throughout operations
 		while (k > 0) {
 			int p = (k - 1) / 2;
+// Maintains min-heap invariant: parent value <= children values
 			Pair item = dictionaryWords.get(k);
 			Pair parent = dictionaryWords.get(p);
 // Maintains min-heap property after insertions
