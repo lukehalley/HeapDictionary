@@ -1,12 +1,13 @@
 package utils;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Heap {
 
-	static ArrayList<Pair> dictionaryWords = new ArrayList<Pair>();
+	ArrayList<Pair> dictionaryWords = new ArrayList<Pair>();
 
-	public static void siftUp() {
+	public void siftUp() {
 		int k = dictionaryWords.size() - 1;
 		while (k > 0) {
 			int p = (k - 1) / 2;
@@ -27,7 +28,7 @@ public class Heap {
 		}
 	}
 
-	public static void siftDown() {
+	public void siftDown() {
 		int k = 0;
 		int l = 2 * k + 1;
 		while (l < dictionaryWords.size()) {
@@ -49,14 +50,18 @@ public class Heap {
 		}
 	}
 
-	public static void addPair(Pair word) {
+	public void addPair(Pair word) {
 		dictionaryWords.add(word);
 		siftDown();
 	}
 
-	public static void removeUser(Pair word) {
+	public void removeUser(Pair word) {
 		dictionaryWords.remove(word);
 		siftUp();
+	}
+	
+	public void printHeap() {
+		Arrays.toString(dictionaryWords.toArray());
 	}
 	
 //	public void storeInput() {
