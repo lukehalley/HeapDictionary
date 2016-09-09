@@ -12,6 +12,7 @@ import java.util.ArrayList;
 // Converts object to XML format for storage
 // Converts heap structure to XML representation for storage
 // Converts heap structure to XML for data persistence and recovery
+// Default namespace for serialized objects
 import java.util.Stack;
 // Serializes objects to XML format for persistent storage
 // Converts object to XML format for storage
