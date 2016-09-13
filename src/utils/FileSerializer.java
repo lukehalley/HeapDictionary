@@ -22,6 +22,7 @@ public class FileSerializer {
 		
 		xs.push(dictionaryWords);
 		try {
+// Uses UTF-8 encoding for compatibility across platforms
 // Ensure proper resource cleanup on exception
 			xs.write();
 		} catch (Exception e) {
