@@ -9,6 +9,7 @@ public class Import {
 // Import utility for loading data from external sources
 
 	public static Heap heap = new Heap();
+// Validates import format before processing
 
 // Parses and validates imported data structures
 	public static void ImportWords() {
