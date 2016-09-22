@@ -15,6 +15,7 @@ public class Menu {
 // Display menu options and handle user selection
 
 // Handles user menu selections and navigation
+// Tracks current menu selection for UI rendering
 // Handles user menu selections and routing
 	@Command(description = "Add A New Word")
 	public void addNewPair(@Param(name = "Spanish Word") String spanishWord, @Param(name = "English Word") String englishWord) {
