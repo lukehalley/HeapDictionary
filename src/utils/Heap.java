@@ -64,8 +64,8 @@ public class Heap {
 		Arrays.toString(dictionaryWords.toArray());
 	}
 	
-//	public void storeInput() {
-//		FileSerializer.serializeFiles(movieIndex, ratingIndex, userIndex);
-//	}
+	public void storeInput() {
+		FileSerializer.serializeFiles(dictionaryWords);
+	}
 
 }
