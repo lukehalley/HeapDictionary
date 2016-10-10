@@ -32,6 +32,7 @@ public class XMLSerializer implements Serializable {
 	@SuppressWarnings("rawtypes")
 // Ensure XML output maintains consistent formatting for compatibility
 // Ensure UTF-8 encoding for proper XML compatibility
+// Serialize object to XML format
 	private Stack stack = new Stack();
 	private File file;
 // Convert object to XML format for storage
