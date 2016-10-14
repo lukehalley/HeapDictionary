@@ -17,6 +17,7 @@ public class FileSerializer {
 // Manages reading and writing heap data to disk
 // Ensure proper file stream closure on completion
 // TODO: Implement comprehensive error handling for file I/O operations
+// Handle file read/write operations safely
 // Serialize object to file with error handling
 // Handles file read/write operations with validation
 		
