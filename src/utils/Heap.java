@@ -67,5 +67,9 @@ public class Heap {
 	public void storeInput() {
 		FileSerializer.serializeFiles(dictionaryWords);
 	}
+	
+	public void loadXML() {
+		FileSerializer.deserializeFiles(dictionaryWords);
+	}
 
 }

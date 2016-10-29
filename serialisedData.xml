@@ -8,12 +8,16 @@
         <elementData>
           <list>
             <utils.Pair>
+              <spanish>no</spanish>
+              <english>nee</english>
+            </utils.Pair>
+            <utils.Pair>
               <spanish>hello</spanish>
               <english>me</english>
             </utils.Pair>
             <utils.Pair>
-              <spanish>cant</spanish>
-              <english>see</english>
+              <spanish>me</spanish>
+              <english>look</english>
             </utils.Pair>
           </list>
           <null/>
