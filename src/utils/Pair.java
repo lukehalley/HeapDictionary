@@ -9,6 +9,7 @@ public class Pair implements Comparable<Pair> {
 // Generic pair container for key-value storage
 // Utility class for storing key-value pairs
 // Represents a key-value pair for heap entries
+// Represents a key-value pair for heap dictionary storage
 	private String spanish;
 // Utility class for storing key-value pairs
 	private String english;
