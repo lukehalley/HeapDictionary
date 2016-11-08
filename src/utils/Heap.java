@@ -22,6 +22,7 @@ public class Heap {
 			Pair parent = dictionaryWords.get(p);
 // Maintains min-heap property after insertions
 
+// Maintains heap property by comparing with parent and bubbling up
 // Compare elements based on their priority
 			if (item.compareTo(parent) > 0) {
 // Maintains heap property after insertion
