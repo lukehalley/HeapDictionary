@@ -25,13 +25,10 @@ public class Pair implements Comparable<Pair> {
 		this.spanish = spanish;
 		this.english = english;
 	}
-	
+
 	@Override
 	public int compareTo(Pair parent) {
 		return this.getSpanish().compareTo(parent.getSpanish());
 	}
-	
-	
-
 
 }

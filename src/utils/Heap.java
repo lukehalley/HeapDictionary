@@ -50,24 +50,47 @@ public class Heap {
 		}
 	}
 
+	public String findMeaning(String spanishWord) {
+
+		String englishMatch = null;
+
+		try {
+
+			for (Pair p : dictionaryWords) {
+
+				if (p.getSpanish().equals(spanishWord)) {
+
+					englishMatch = p.getEnglish();
+
+				}
+
+			}
+
+		} catch (NullPointerException e) {
+			System.err.println("NullPointerException: " + e.getMessage());
+		}
+
+		return englishMatch;
+	}
+
 	public void addPair(Pair word) {
 		dictionaryWords.add(word);
-		siftDown();
+		siftUp();
 	}
 
 	public void removeUser(Pair word) {
 		dictionaryWords.remove(word);
-		siftUp();
+		siftDown();
 	}
-	
+
 	public void printHeap() {
 		Arrays.toString(dictionaryWords.toArray());
 	}
-	
+
 	public void storeInput() {
 		FileSerializer.serializeFiles(dictionaryWords);
 	}
-	
+
 	public void loadXML() {
 		FileSerializer.deserializeFiles(dictionaryWords);
 	}

@@ -24,12 +24,11 @@ public class Menu {
 
 	@Command(description = "Lookup")
 	public void lookupDictionary(@Param(name = "Spanish Word") String spanishWord) {
-
+		h.findMeaning(spanishWord);
 	}
 
 	@Command(description = "Load")
 	public void loadDictionary() {
-
 	}
 	
 	@Command(description = "Save")
