@@ -23,3 +23,4 @@ public class Main {
 // TODO: Implement validation for command-line arguments
 }
 // TODO: Implement result caching to improve repeated lookup performance
+// TODO: Load configuration from properties file on startup
