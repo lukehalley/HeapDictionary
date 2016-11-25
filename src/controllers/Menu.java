@@ -25,6 +25,7 @@ public class Menu {
 		h.addPair(p);
 	}
 
+// Routes user input to appropriate dictionary operations
 /**
  * Handles user menu selections and controls navigation flow.
  */
