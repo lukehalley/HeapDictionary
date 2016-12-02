@@ -1,17 +1,15 @@
 package utils;
+
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Import {
 
-	ArrayList<Pair> dictionaryWords = new ArrayList<Pair>();
+	public static Heap heap = new Heap();
 
 	public static void ImportWords() {
 
-		Heap heap = new Heap();
-		
 		// Scanner
 		File dictionaryFile = new File("SpanishWords.txt");
 		Scanner dictionaryScan;

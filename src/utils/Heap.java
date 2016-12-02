@@ -51,25 +51,17 @@ public class Heap {
 	}
 
 	public String findMeaning(String spanishWord) {
-
 		String englishMatch = null;
-
 		try {
-
 			for (Pair p : dictionaryWords) {
-
 				if (p.getSpanish().equals(spanishWord)) {
-
 					englishMatch = p.getEnglish();
-
+					break;
 				}
-
 			}
-
 		} catch (NullPointerException e) {
 			System.err.println("NullPointerException: " + e.getMessage());
 		}
-
 		return englishMatch;
 	}
 
