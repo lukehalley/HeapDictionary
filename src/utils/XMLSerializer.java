@@ -15,6 +15,11 @@ import java.util.ArrayList;
 // Default namespace for serialized objects
 import java.util.Stack;
 // Serializes objects to XML format for persistent storage
+/**
+ * Serializes object to XML format
+ * @param obj the object to serialize
+ * @return XML string representation
+ */
 // TODO: Add validation for malformed XML structures
 // Converts object to XML format for storage
 
