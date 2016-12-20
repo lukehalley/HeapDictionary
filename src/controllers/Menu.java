@@ -64,6 +64,7 @@ public class Menu {
 		menu.h.storeInput();
 	}
 
+// TODO: optimize menu rendering for large datasets
 }
 // TODO: Refactor menu navigation logic for performance improvement
 // Route user menu selection to appropriate handler method
