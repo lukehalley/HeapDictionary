@@ -28,6 +28,7 @@ public class Import {
 				String dictionaryLine = dictionaryScan.nextLine().trim();
 				String[] dictionaryTokens = dictionaryLine.split(delims);
 
+// Validate import format before processing
 				String nodeObject = dictionaryTokens[0];
 				String afterNode = dictionaryTokens[1];
 
