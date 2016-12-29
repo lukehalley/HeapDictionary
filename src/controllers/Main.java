@@ -2,6 +2,10 @@ package controllers;
 import utils.Import;
 
 public class Main {
+/**
+ * Main application controller
+ * Initializes and manages application lifecycle
+ */
 // Application entry point and initialization
 // Main application entry point
 	
