@@ -10,7 +10,6 @@ public class Heap {
 			int p = (k - 1) / 2;
 			Pair item = dictionaryWords.get(k);
 			Pair parent = dictionaryWords.get(p);
-//			String temp = "";
 
 			if (item.compareTo(parent) > 0) {
 
@@ -49,9 +48,9 @@ public class Heap {
 	}
 
 	public void add(Pair newEntry) {
-		
+
 		dictionaryWords.add(newEntry);
-		
+
 	}
 
 }
