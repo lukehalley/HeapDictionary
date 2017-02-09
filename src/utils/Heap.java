@@ -1,3 +1,4 @@
+package utils;
 import java.util.ArrayList;
 
 public class Heap {
@@ -50,6 +51,7 @@ public class Heap {
 	public void add(Pair newEntry) {
 
 		dictionaryWords.add(newEntry);
+		siftDown();
 
 	}
 
