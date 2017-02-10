@@ -16,19 +16,19 @@ import com.thoughtworks.xstream.io.xml.DomDriver;
 public class XMLSerializer implements Serializable {
 
 	@SuppressWarnings("rawtypes")
-	private static Stack stack = new Stack();
+	private Stack stack = new Stack();
 	private File file;
 
-	public XMLSerializer(File file) {
-		this.setFile(file);
+	public XMLSerializer() {
+//		this.setFile(file);
 	}
 
 	@SuppressWarnings("unchecked")
-	public static void push(Object o) {
+	public void push(Object o) {
 		stack.push(o);
 	}
 
-	public static Object popWords(ArrayList<Pair> dictionaryWords) {
+	public Object popWords(ArrayList<Pair> dictionaryWords) {
 		return stack.pop();
 	}
 
