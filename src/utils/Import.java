@@ -8,7 +8,6 @@ public class Import {
 
 	ArrayList<Pair> dictionaryWords = new ArrayList<Pair>();
 
-	@SuppressWarnings("unused")
 	public static void ImportWords() {
 
 		Heap heap = new Heap();
@@ -29,7 +28,7 @@ public class Import {
 				String afterNode = dictionaryTokens[1];
 
 				Pair p = new Pair(nodeObject, afterNode);
-				Heap.addPair(p);
+				heap.addPair(p);
 
 			}
 

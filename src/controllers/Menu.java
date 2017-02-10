@@ -8,15 +8,24 @@ import utils.Heap;
 import utils.Pair;
 
 public class Menu {
+	
+	Heap h = new Heap();
 
 	@Command(description = "Add A New Word")
-	public void addNewPair(@Param(name = "Word") Pair word) {
-		Heap.addPair(word);
+	public void addNewPair(@Param(name = "Spanish Word") String spanishWord, @Param(name = "English Word") String englishWord) {
+		Pair p = new Pair(spanishWord, englishWord);
+		h.addPair(p);
+
 	}
 
 	@Command(description = "Delete Word")
 	public void removeUser(@Param(name = "Word") Pair word) {
-		Heap.removeUser(word);
+		h.removeUser(word);
+	}
+	
+	@Command(description = "Print")
+	public void printHeap() {
+		h.printHeap();
 	}
 
 	public static void menu() throws Exception {
