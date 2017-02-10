@@ -20,7 +20,6 @@ public class XMLSerializer implements Serializable {
 	private File file;
 
 	public XMLSerializer() {
-//		this.setFile(file);
 	}
 
 	@SuppressWarnings("unchecked")

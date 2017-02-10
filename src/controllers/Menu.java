@@ -22,11 +22,6 @@ public class Menu {
 		h.removeUser(word);
 	}
 
-	@Command(description = "Print")
-	public void printHeap() {
-		h.printHeap();
-	}
-
 	@Command(description = "Lookup")
 	public void lookupDictionary(@Param(name = "Spanish Word") String spanishWord) {
 
@@ -36,13 +31,18 @@ public class Menu {
 	public void loadDictionary() {
 
 	}
+	
+	@Command(description = "Save")
+	public void saveDictionary() {
+		h.storeInput();
+		System.out.println("File Saved");
+	}
 
 	public static void menu() throws Exception {
 		Menu menu = new Menu();
 		Shell shell = ShellFactory.createConsoleShell("SE Dictionary ","Welcome to the Spanish to English dictionary - ?help for instructions", menu);
 		shell.commandLoop();
 		menu.h.storeInput();
-		System.out.println("Past");
 	}
 
 }
