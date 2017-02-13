@@ -5,11 +5,12 @@ import asg.cliche.Param;
 import asg.cliche.Shell;
 import asg.cliche.ShellFactory;
 import utils.Heap;
+import utils.Import;
 import utils.Pair;
 
 public class Menu {
 
-	Heap h = new Heap();
+	Heap h = Import.heap;
 
 	@Command(description = "Add A New Word")
 	public void addNewPair(@Param(name = "Spanish Word") String spanishWord, @Param(name = "English Word") String englishWord) {
@@ -24,7 +25,8 @@ public class Menu {
 
 	@Command(description = "Lookup")
 	public void lookupDictionary(@Param(name = "Spanish Word") String spanishWord) {
-		h.findMeaning(spanishWord);
+		String answer = h.findMeaning(spanishWord);
+		System.out.println(answer);
 	}
 
 	@Command(description = "Load")
