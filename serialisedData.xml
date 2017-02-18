@@ -8,16 +8,384 @@
         <elementData>
           <list>
             <utils.Pair>
-              <spanish>no</spanish>
-              <english>nee</english>
+              <spanish>yo</spanish>
+              <english>I, me</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>venir</spanish>
+              <english>to come</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>y</spanish>
+              <english>and</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>tanto</spanish>
+              <english>used in making comparisons</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>triste</spanish>
+              <english>sad</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>usted</spanish>
+              <english>you</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>ver</spanish>
+              <english>to see</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>siempre</spanish>
+              <english>always</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>sobre</spanish>
+              <english>over, about</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>trabajar</spanish>
+              <english>to work</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>si</spanish>
+              <english>if</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>t</spanish>
+              <english>you</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>tener</spanish>
+              <english>to have, to possess</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>salir</spanish>
+              <english>to leave</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>su</spanish>
+              <english>your, her, his, their</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>por</spanish>
+              <english>for, by</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>se</spanish>
+              <english>itself, herself, himself, themselves</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>saber</spanish>
+              <english>to know</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>sin</spanish>
+              <english>without</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>tambin</spanish>
+              <english>also</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>todo</spanish>
+              <english>all, every</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>o</spanish>
+              <english>or</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>quin</spanish>
+              <english>who</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>muy</spanish>
+              <english>very</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>querer</spanish>
+              <english>to want, to love</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>s</spanish>
+              <english>yes</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>ser</spanish>
+              <english>to be</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>otro</spanish>
+              <english>other</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>poder</spanish>
+              <english>to be able</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>poner</spanish>
+              <english>to put</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>pensar</spanish>
+              <english>to think</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>hasta</spanish>
+              <english>until</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>entre</spanish>
+              <english>between, among</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>llevar</spanish>
+              <english>to wear, to carry</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>leer</spanish>
+              <english>to read</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>pero</spanish>
+              <english>but</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>primero</spanish>
+              <english>first</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>nuevo</spanish>
+              <english>new</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>sacar</spanish>
+              <english>to take out, to remove</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>estar</spanish>
+              <english>to be</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>porque</spanish>
+              <english>because</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>comer</spanish>
+              <english>to eat</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>pas</spanish>
+              <english>country</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>hombre</spanish>
+              <english>man</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>mujer</spanish>
+              <english>woman</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>encontrar</spanish>
+              <english>to find</english>
             </utils.Pair>
             <utils.Pair>
               <spanish>hello</spanish>
               <english>me</english>
             </utils.Pair>
             <utils.Pair>
-              <spanish>me</spanish>
-              <english>look</english>
+              <spanish>hello</spanish>
+              <english>me</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>mismo</spanish>
+              <english>same</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>bien</spanish>
+              <english>well as an adverb</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>nunca</spanish>
+              <english>never</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>haber</spanish>
+              <english>to have as an auxiliary verb</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>grande</spanish>
+              <english>big, great</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>deber</spanish>
+              <english>to owe, should</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>hola</spanish>
+              <english>hello</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>ahora</spanish>
+              <english>now</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>bajo</spanish>
+              <english>low, under</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>gustar</spanish>
+              <english>to be pleasing</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>hora</spanish>
+              <english>hour</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>bueno</spanish>
+              <english>good</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>desde</spanish>
+              <english>from</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>casi</spanish>
+              <english>almost</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>malo</spanish>
+              <english>bad</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>gracias</spanish>
+              <english>thanks</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>hacer</spanish>
+              <english>to do, to make</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>como</spanish>
+              <english>like, as</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>durante</spanish>
+              <english>during</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>amar</spanish>
+              <english>to love</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>donde</spanish>
+              <english>where</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>dar</spanish>
+              <english>to give</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>empezar</spanish>
+              <english>to begin</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>amigo</spanish>
+              <english>friend</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>cosa</spanish>
+              <english>thing</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>conocer</spanish>
+              <english>to know</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>para</spanish>
+              <english>for, to</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>andar</spanish>
+              <english>to walk</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>mucho</spanish>
+              <english>much</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>echar</spanish>
+              <english>to throw</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>no</spanish>
+              <english>no</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>cuando</spanish>
+              <english>when</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>decir</spanish>
+              <english>to say</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>chico</spanish>
+              <english>boy</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>nosotros</spanish>
+              <english>we, us</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>adis</spanish>
+              <english>goodbye</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>chica</spanish>
+              <english>girl</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>entender</spanish>
+              <english>to understand</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>ir</spanish>
+              <english>to go</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>antes</spanish>
+              <english>before</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>escuchar</spanish>
+              <english>to listen, to listen to</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>ms</spanish>
+              <english>more</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>le</spanish>
+              <english>indirect-object pronoun</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>creer</spanish>
+              <english>to believe, to think</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>en</spanish>
+              <english>on, in</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>beber</spanish>
+              <english>to drink</english>
+            </utils.Pair>
+            <utils.Pair>
+              <spanish>feliz</spanish>
+              <english>happy</english>
             </utils.Pair>
           </list>
           <null/>
